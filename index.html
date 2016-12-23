@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test Task</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="container">
+			<header id="header">
+				<div class="img">
+					<img src="images/img-profile_avatar.jpg" alt="image description">
+				</div>
+				<div class="profile">
+					<h1 id="name">Вероника Ростова</h1>
+					<span>Менеджер по продажам</span>
+				</div>
+				<div class="descr">
+					<p>Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны</p>
+				</div>
+			</header><!-- header -->
+			<div class="services">
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th class="center">Услуг</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<div class="services-progress">
+									<div class="progress-bar success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+										<span>Ручное бронирование</span>
+									</div>
+								</div>
+							</td>
+							<td class="center">11</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="services-progress">
+									<div class="progress-bar info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+										<span>Пакетные туры</span>
+									</div>
+								</div>
+							</td>
+							<td class="center">3</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="services-progress">
+									<div class="progress-bar info" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">
+										<span>Отели</span>
+									</div>
+								</div>
+							</td>
+							<td class="center">1</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td>
+								<strong>Всего</strong>
+							</td>
+							<td class="center">
+								<span>15</span>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div><!-- services -->
+			<div class="reviews">
+				<div class="row">
+					<strong>Последние отзывы<a href="#">Все отзывы</a></strong>
+					<div class="wall-module">
+						<a class="like" href="#">
+							<i class="like-ico">like</i>
+							<span class="like-count">131</span>
+						</a>
+						<a class="comment" href="#">
+							<i class="comment-ico">comment</i>
+							<span class="comment-count">14</span>
+						</a>
+					</div>
+				</div>
+				<ul class="comment-block">
+					<li>
+						<strong class="name">Самуил</strong>
+						<span class="date">13 октября 2011</span>
+						<div class="comment-text">
+							<p>Привет, Верунь! ниче себе ты крутая. фотка класс!!!!</p>
+						</div>
+					</li>
+					<li>
+						<strong class="name">Лилия Семёновна</strong>
+						<span class="date">14 октября 2011</span>
+						<div class="comment-text">
+							<p>Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?</p>
+						</div>
+					</li>
+					<li>
+						<strong class="name">Лилия Семёновна</strong>
+						<span class="date">14 октября 2011</span>
+						<div class="comment-text">
+							<p>Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</p>
+						</div>
+					</li>
+				</ul>
+			</div><!-- reviews -->
+		</div><!-- container -->
+		<div class="field-user">
+			<div class="container">
+				<form action="#">
+					<textarea class="form-control-messagebox"></textarea>
+					<input type="submit" class="button" value="Написать консультанту">
+				</form>
+			</div>
+		</div><!-- field-user -->
+	</div><!-- wrapper -->
+</body>
+</html>
